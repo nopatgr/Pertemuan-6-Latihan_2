@@ -38,6 +38,7 @@
         <Filename Value="unit1gajikaryawan.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="PTCintaSejati"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="unit1GajiKaryawan"/>
       </Unit>

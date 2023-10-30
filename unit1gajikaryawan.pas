@@ -78,6 +78,24 @@ begin
 
   // Menampilkan total gaji pada komponen output
   edtTotalGaji.Text := FloatToStr(TotalGaji);
+
+  // Menghitung tunjangan berdasarkan status
+if rgStatus.ItemIndex = 0 then
+begin
+  // Status Pegawai: Tetap
+  Tunjangan := 1500000;
+end
+else if rgStatus.ItemIndex = 1 then
+begin
+  // Status Pegawai: Honorer
+  Tunjangan := 500000;
+end
+else
+begin
+  // Status Pegawai tidak dipilih (misalnya, default)
+  Tunjangan := 0;
+end;
+
 end;
 
 
@@ -94,6 +112,7 @@ begin
   edtTotalGaji.Clear;
   edtTotalGaji.Visible := False;
 end;
+
 procedure TPTCintaSejati.btnCloseClick(Sender: TObject);
 begin
   // Menutup aplikasi
@@ -101,4 +120,3 @@ begin
 end;
 
 end.
-

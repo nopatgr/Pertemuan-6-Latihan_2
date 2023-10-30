@@ -6633,7 +6633,9 @@ object PTCintaSejati: TPTCintaSejati
     Top = 245
     Width = 179
     Caption = 'Total Gaji'
+    Font.Style = [fsBold]
     OnClick = btnHitungClick
+    ParentFont = False
     TabOrder = 1
   end
   object Clear: TButton
@@ -6642,7 +6644,10 @@ object PTCintaSejati: TPTCintaSejati
     Top = 339
     Width = 92
     Caption = 'Isi data lagi'
+    Color = clForm
+    Font.Style = [fsBold]
     OnClick = btnClearClick
+    ParentFont = False
     TabOrder = 2
   end
   object Kluar: TButton
@@ -6651,7 +6656,9 @@ object PTCintaSejati: TPTCintaSejati
     Top = 338
     Width = 85
     Caption = 'Close'
+    Font.Style = [fsBold, fsItalic]
     OnClick = btnCloseClick
+    ParentFont = False
     TabOrder = 3
   end
   object edtNama: TEdit

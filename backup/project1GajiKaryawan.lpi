@@ -35,11 +35,12 @@
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="unit1.pas"/>
+        <Filename Value="unit1gajikaryawan.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="PTCintaSejati"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="Unit1"/>
+        <UnitName Value="unit1GajiKaryawan"/>
       </Unit>
     </Units>
   </ProjectOptions>
