@@ -44,5 +44,8 @@ Hasil Desain Form
 
 ![p](/penjualan%20barang/barang.png)
 
+<br>
+<br>
+<br>===================== P ============== P ===================<br>
 
-![Deskripsi Gambar](https://media.giphy.com/media/xUPGGu9zmB3gYjxzdC/giphy.gif)
+![Deskripsi Gambar](https://media3.giphy.com/media/LvtxIRg1Ly96E/200w.webp?cid=ecf05e47vco7rdnqxgdey55lcrk8tnn6f4m13br06fz88ptt&ep=v1_gifs_related&rid=200w.webp&ct=g)
